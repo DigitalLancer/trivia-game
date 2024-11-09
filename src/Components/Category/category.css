@@ -1,0 +1,27 @@
+.category-btn {
+    height: 100%;
+    width: 100%;
+    /*background: linear-gradient(135deg, #F2F1F1, #C4C4C4);*/
+    padding: 0;
+    border: none;
+    border-radius: 10px;
+}
+.btn-container {
+    height: 100%;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.btn-icon {
+    height: 65%;
+}
+.category-title {
+    font-size: 1.5em;
+    font-family: "Poppins", serif;
+    font-weight: bold;
+    color: #181818;
+    /*position: absolute;
+    left: 50px;*/
+}
