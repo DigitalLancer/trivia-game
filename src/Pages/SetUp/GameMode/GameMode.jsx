@@ -3,6 +3,7 @@ import './gameMode.css'
 import ModeCard from '../../../Components/ModeCard/ModeCard'
 import DifficultyCard from '../../../Components/DifficultyCard/DifficultyCard'
 function GameMode(props) {
+    const category=props.category;
     const [difficulty, setDifficulty] = useState(null);
     const [pace, setPace]=useState(null)
     const selectDifficulty = (id) => {

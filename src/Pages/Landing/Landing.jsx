@@ -5,8 +5,8 @@ function Landing() {
   return (
     <div className='container'>
       <div className="landing">
-        <h1 className='title'>TRIVIA NIGHT</h1>
-        <Link to="/setup"><button className='start-btn'>START</button></Link>
+        <h1 className='title'>QUIZ QUEST</h1>
+        <Link to="/setup"><button className='start-btn'>Play</button></Link>
       </div>
     </div>
   )

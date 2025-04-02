@@ -4,3 +4,62 @@
 .active-tab{
     display: block;
 }
+.categories-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4,100px);
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.setup-title {
+    font-family: "Poppins", serif;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    color: white;
+}
+.setup-btn{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    border: none;
+}
+.setup-container{
+    height: 100dvh;
+    padding: 30px;
+}
+.active{
+    box-shadow: inset 0 0  20px 0px #02aa10;
+}
+.difficulty-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3,60px);
+    gap: 10px;
+    margin-bottom: 50px;
+}
+#difficulty{
+    margin-top: 20px;
+}
+.difficulty-btn, .speed-btn{
+    border: none;
+    border-radius: 10px;
+}
+.difficulty-btn:hover{
+    background: rgb(233, 233, 233);
+}
+.setup-wrapper{
+    height: 100%;
+}
+.submit-btn{
+    border: none;
+    background: #26baff;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+}
+.btn-left-container{
+    display: flex;
+    justify-content: end;
+}

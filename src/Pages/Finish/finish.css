@@ -1,0 +1,52 @@
+.finish {
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    margin-top: 50px;
+    text-align: center;
+}
+.flex-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.stars-img {
+    height: auto;
+    width: 180px;
+}
+.score-container {
+    width: 280px;
+    height: 250px;
+    background: rgb(255, 255, 255);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(37, 37, 37);
+    padding: 20px;  
+}
+.score-container p{
+    font-size: 1.4em;
+    font-weight: bold;
+}
+.progress-bar-container {
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    font-weight: bold;
+}
+.replay-btn{
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 15px 20px;
+    border-radius: 10px;
+    border: none;
+    background: #1f92f0;
+    color: white;
+    margin-top: 20px;
+}

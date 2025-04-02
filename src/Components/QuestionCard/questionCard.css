@@ -1,0 +1,35 @@
+.question-text {
+    width: 100%;
+    height: 180px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background: white;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    font-size: 1.2em;  
+    margin-bottom: 30px;
+}
+.answer-button {
+    border: 2px solid #d8d8d8;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+    padding: 15px 10px;
+    width: 100%;
+    text-align: left;
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+.correct{
+    border: 2px solid #05c916;
+    box-shadow: inset 0 0  10px 0px #00e013;
+}
+.incorrect{
+    box-shadow: inset 0 0  10px 0px #ff0000;
+    border: 2px solid rgb(255, 198, 198)
+}
+.answers {
+    width: 100%;
+    padding: 0 5px;
+}
