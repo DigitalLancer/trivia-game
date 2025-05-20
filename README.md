@@ -2,6 +2,8 @@
 
 **Quiz Quest** is a fun and interactive quiz game application built using JavaScript and the [Quiz API](https://opentdb.com/). It allows users to test their knowledge across various categories, track their score, and enjoy a fast-paced trivia experience.
 
+🔗 **Live Demo**: [https://quizquest-game.netlify.app/](https://quizquest-game.netlify.app/)
+
 ## 🎯 Features
 
 - 📝 **Random Trivia Questions** – Pulled dynamically from an external quiz API
