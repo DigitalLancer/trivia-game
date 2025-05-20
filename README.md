@@ -1,8 +1,10 @@
-# React + Vite
+# 🧠 Quiz Quest
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Quiz Quest** is a fun and interactive quiz game application built using JavaScript and the [Quiz API](https://opentdb.com/). It allows users to test their knowledge across various categories, track their score, and enjoy a fast-paced trivia experience.
 
-Currently, two official plugins are available:
+## 🎯 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 📝 **Random Trivia Questions** – Pulled dynamically from an external quiz API
+- 🎮 **Game Mode** – Answer multiple questions and get immediate feedback
+- 🧩 **Category and Difficulty Options** – Customize your quiz session
+- 📱 **Responsive Design** – Play easily on both desktop and mobile devices
